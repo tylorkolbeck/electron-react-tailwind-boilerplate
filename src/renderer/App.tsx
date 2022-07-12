@@ -21,7 +21,14 @@ const Hello = () => {
     // console.log('>>>', response);
   };
 
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    // <h1 className="text-3xl font-bold underline text-orange-700">
+    //   Hello world!
+    // </h1>
+    <div className="absolute inset-0 bg-white text-center h-full flex flex-col justify justify-center">
+      ERB + TAILWIND = ❤
+    </div>
+  );
 };
 
 export default function App() {
